@@ -10,6 +10,11 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'custom-black': '#1A1A1A',
+        'custom-green': '#ADFF11',
+        'custom-darkgreen': '#2B4235',
+        'custom-blue': '#287DFF',
+        'custom-red': '#FF2828',
       },
     },
   },
