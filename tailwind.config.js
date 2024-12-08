@@ -16,6 +16,12 @@ module.exports = {
         'custom-blue': '#287DFF',
         'custom-red': '#FF2828',
       },
+      backgroundImage: {
+        'grid-pattern': 'linear-gradient(transparent 95%, rgba(34, 197, 94, 0.2) 95%), linear-gradient(90deg, transparent 95%, rgba(34, 197, 94, 0.2) 95%)',
+      },
+      backgroundSize: {
+        'grid-lines': '20px 20px',
+      },
     },
   },
   plugins: [],

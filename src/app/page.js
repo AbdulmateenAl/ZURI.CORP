@@ -10,7 +10,7 @@ import { IoIosCall } from "react-icons/io";
 
 export default function Home() {
   return (
-      <div className="flex flex-col gap-10 pt-6 pl-6 pr-6">
+      <div className="flex flex-col gap-10 pt-6 pl-6 pr-6 bg-grid-pattern bg-grid-lines">
         <header className="flex justify-between">
           <div className="flex items-center justify-center w-32 text-black bg-white rounded-2xl h-7">
             <Image width={25} height={25} alt="zuricorp logo" src='/Zuricorplogo.png' className="max-w-full"/>
@@ -29,7 +29,7 @@ export default function Home() {
               anything less than excellence.</p>
             </div>
             <div className="md:w-1/5">
-              <Image src='/group1.png' alt="the world" width={800} height={450}/>
+              <Image src='/group1.png' alt="the world" width={800} height={750}/>
             </div>
           </div>
           <div className="p-6 bg-white rounded-3xl">
@@ -108,8 +108,8 @@ export default function Home() {
               </div>
               <div className="flex flex-row items-center gap-5">
                 <p>contact us:</p>
-                <FaTwitter className="text-white cursor-pointer"/>
-                <RiInstagramFill className="text-white cursor-pointer" />
+                <a href="https://x.com/zuri_corp" target="_blank"><FaTwitter className="text-white cursor-pointer"/></a>
+                <a href="https://www.instagram.com/zuri.corp/?hl=en" target="_blank"><RiInstagramFill className="text-white cursor-pointer" /></a>
                 <MdEmail className="text-white cursor-pointer"/>
                 <IoIosCall className="text-white cursor-pointer"/>
               </div>
