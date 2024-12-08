@@ -115,7 +115,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <p className="flex items-center justify-center text-sm">copyright © 2024 zuri.corp All rights reserved.</p>
+          <p className="flex items-center justify-center -mb-5 text-sm">copyright © 2024 zuri.corp All rights reserved.</p>
         </footer>
       </div>
   );
